@@ -25,5 +25,5 @@ A Java program that pulls live T20 data and calculates a pressure score from 2 t
 - Cricket Data API (cricketdata.org)
 
 ## Design Docs
-- [Eisenhower Matrix](docs/Eisenhower%20Matrix.pdf)
+- Eisenhower Matrix: [Eisenhower Matrix](docs/Eisenhower%20Matrix.pdf)
 - System diagram: [System diagram](docs/System%20Diagram.png)
