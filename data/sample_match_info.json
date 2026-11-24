@@ -1,0 +1,24 @@
+{
+  "data": {
+    "id": "89e2d674-07cf-4471-b41e-0376afe9ff1f",
+    "name": "Andhra vs Puducherry, Elite Group C, Syed Mushtaq Ali Trophy Elite 2026",
+    "matchType": "t20",
+    "status": "Andhra need 23 runs in 18 balls",
+    "venue": "PCA International Cricket Stadium, Ground A, New Chandigarh",
+    "date": "2026-11-24",
+    "dateTimeGMT": "2026-11-24T11:00:00",
+    "teams": ["Andhra", "Puducherry"],
+    "score": [
+      { "r": 147, "w": 8, "o": 20, "inning": "Puducherry Inning 1" },
+      { "r": 125, "w": 6, "o": 17, "inning": "Andhra Inning 1" }
+    ],
+    "tossWinner": "andhra",
+    "tossChoice": "bowl",
+    "fantasyEnabled": true,
+    "bbbEnabled": false,
+    "hasSquad": true,
+    "matchStarted": true,
+    "matchEnded": false
+  },
+  "status": "success"
+}
