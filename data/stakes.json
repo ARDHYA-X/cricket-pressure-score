@@ -1,0 +1,8 @@
+{
+  "tiers": [
+    { "level": 1, "name": "Bilateral series or dead rubber", "multiplier": 0.9 },
+    { "level": 2, "name": "League or group stage", "multiplier": 1.0 },
+    { "level": 3, "name": "Knockout or must-win league game", "multiplier": 1.1 },
+    { "level": 4, "name": "Final or rivalry World Cup match", "multiplier": 1.2 }
+  ]
+}
