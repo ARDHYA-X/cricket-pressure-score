@@ -6,6 +6,9 @@ public class SituationMultiplier {
     static final double RATE_WEIGHT = 0.5;
     static final double WICKET_WEIGHT = 0.3;
     static final double END_WEIGHT = 0.2;
+    //A typical T20 scoring rate as a reference;
+    static final double PAR_RATE = 9.0;
+
 
 
 
@@ -44,7 +47,7 @@ public class SituationMultiplier {
             return MAX_MULTIPLIER;
         } 
 
-        double rateTerm = Math.max(0, Math.min(1, (requiredRate - currentRate) / 6.0));
+        double rateTerm = Math.max(0, Math.min(1, (requiredRate - Math.max(currentRate, PAR_RATE)) / 6.0));
         double wicketTerm = wicketsLost / 10.0;
         double endTerm = 1 - ballsLeft / 120.0;
 
