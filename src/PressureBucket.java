@@ -2,6 +2,7 @@ public class PressureBucket {
     
     static final double DECAY = 0.95;
     static final double AHEAD_WEIGHT = 0.5;
+    static final int GRACE_BALLS = 1; // balls a batter faces before the bucket starts moving.
 
     double level;
     int ballsFaced;
@@ -16,9 +17,9 @@ public class PressureBucket {
         ballsFaced++;
         runsScored += runsOnBall;
 
-        if (ballsFaced < 4) {
+        if (ballsFaced <= GRACE_BALLS) {
             return;
-        }
+}
 
         double expectedRunsPerBall = baselineStrikeRate / 100;
         double gap = expectedRunsPerBall - runsOnBall;
